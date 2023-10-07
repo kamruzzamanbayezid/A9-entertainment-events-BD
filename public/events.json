@@ -1,0 +1,107 @@
+[
+      {
+            "category": "Concerts and Music Festivals",
+            "title": "Bangladesh Music Fest",
+            "image": "https://example.com/bangladesh-music-fest.jpg",
+            "description": "Join us for the biggest music festival in Bangladesh. Get ready to experience an electrifying night filled with the mesmerizing tunes of top artists from around the country. From rock to pop and classical to contemporary, this festival has it all. Don't miss out on this unforgettable musical journey.",
+            "date": "2023-11-12",
+            "time": "17:00",
+            "location": {
+                  "venue": "Dhaka Stadium",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 50.00,
+            "organizer": "Bangladesh Entertainment Productions"
+      },
+      {
+            "category": "Theater and Performing Arts",
+            "title": "Dhaka Theater Night",
+            "image": "https://example.com/dhaka-theater-night.jpg",
+            "description": "Step into the world of captivating theater performances by local talents in Dhaka. This enchanting evening promises a variety of dramatic acts, from timeless classics to contemporary masterpieces. Get ready to be moved and inspired by the magic of live theater.",
+            "date": "2023-12-05",
+            "time": "19:30",
+            "location": {
+                  "venue": "National Theater Hall",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 35.00,
+            "organizer": "Dhaka Arts Society"
+      },
+      {
+            "category": "Film Screenings and Premieres",
+            "title": "Bangladesh Film Festival",
+            "image": "https://example.com/bangladesh-film-festival.jpg",
+            "description": "Be part of a cinematic celebration at the Bangladesh Film Festival. This event showcases the finest films produced in Bangladesh, including exclusive premieres. Immerse yourself in the world of storytelling through cinema and connect with filmmakers and actors.",
+            "date": "2023-10-20",
+            "time": "18:00",
+            "location": {
+                  "venue": "Star Cinemas",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 25.00,
+            "organizer": "Bangladesh Film Society"
+      },
+      {
+            "category": "Comedy Shows",
+            "title": "Dhaka Comedy Fest",
+            "image": "https://example.com/dhaka-comedy-fest.jpg",
+            "description": "Prepare for a night filled with laughter at the Dhaka Comedy Fest. Top comedians from the region will tickle your funny bone with their hilarious acts. Get ready for an evening of non-stop entertainment and joy.",
+            "date": "2023-09-15",
+            "time": "20:00",
+            "location": {
+                  "venue": "Laugh Factory",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 20.00,
+            "organizer": "Dhaka Comedy Club"
+      },
+      {
+            "category": "Sports Events",
+            "title": "Bangladesh Sports Gala",
+            "image": "https://example.com/bangladesh-sports-gala.jpg",
+            "description": "Witness the excitement of various sports events and championships in Bangladesh. From cricket to football and athletics to martial arts, this gala has it all. Feel the adrenaline rush as you cheer for your favorite athletes and teams.",
+            "date": "2023-10-08",
+            "time": "10:00",
+            "location": {
+                  "venue": "Bangabandhu National Stadium",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 30.00,
+            "organizer": "Bangladesh Sports Authority"
+      },
+      {
+            "category": "Dance Performances",
+            "title": "Bangladesh Dance Extravaganza",
+            "image": "https://example.com/bangladesh-dance-extravaganza.jpg",
+            "description": "Experience the grace and beauty of dance in this spectacular event. Renowned dance troupes and solo performers will take the stage to showcase a variety of dance forms, from classical to contemporary. Get ready to be mesmerized by the art of dance.",
+            "date": "2023-11-25",
+            "time": "16:30",
+            "location": {
+                  "venue": "Dhaka Convention Center",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 40.00,
+            "organizer": "Dhaka Dance Academy"
+      },
+      {
+            "category": "Magic Shows",
+            "title": "Magical Moments in Dhaka",
+            "image": "https://example.com/magical-moments-dhaka.jpg",
+            "description": "Prepare to be amazed by mind-blowing magic tricks and illusions. Magicians from around the world will leave you in awe with their extraordinary feats. Experience a night of wonder and enchantment.",
+            "date": "2023-10-18",
+            "time": "19:00",
+            "location": {
+                  "venue": "Dhaka Magic Theater",
+                  "city": "Dhaka",
+                  "country": "Bangladesh"
+            },
+            "ticketPrice": 25.00,
+            "organizer": "Dhaka Magic Society"
+      }
+]

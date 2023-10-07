@@ -15,7 +15,7 @@ const Header = () => {
                         <div className="flex items-center gap-2">
                               <p><CiMail className="text-3xl text-[#FD5F00]"></CiMail></p>
                               <div>
-                                    <h4 className="text-xl font-medium">Email</h4>
+                                    <h4 className="text-lg font-medium">Email:</h4>
                                     <p>kamruzzamanbayezid07@gmail.com</p>
                               </div>
                         </div>
