@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { MdDateRange, MdLocationOn, MdOutlineAccessTime } from "react-icons/md";
+import { CgOrganisation } from "react-icons/cg";
 
 const UpcomingEventDetails = () => {
 
@@ -44,6 +45,14 @@ const UpcomingEventDetails = () => {
                         <div className="flex items-center gap-3">
                               <span><MdOutlineAccessTime className="text-2xl text-[#FD5F00]"></MdOutlineAccessTime></span>
                               <span className="text-lg font-medium">3 hours</span>
+                        </div>
+                  </div>
+
+                  <div className="mt-10">
+                        <h3 className="text-2xl mb-2 font-bold">Organizer:</h3>
+                        <div className="flex items-center gap-3">
+                              <span><CgOrganisation className="text-2xl text-[#FD5F00]"></CgOrganisation></span>
+                              <p className="text-lg text-gray-600 font-medium">{organizer}</p>
                         </div>
                   </div>
 

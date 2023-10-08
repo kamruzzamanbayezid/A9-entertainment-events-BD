@@ -24,7 +24,7 @@ const Testimonials = () => {
                                                 <p className="text-gray-500 text-center mb-2">{testimonial.quote}</p>
                                                 <h3 className="text-center text-[#FD5F00] font-medium text-xl">{testimonial.name}</h3>
                                                 <p className="text-center font-normal mt-1">{testimonial.occupation}</p>
-                                                <img className="w-40 absolute -top-14 border-4 border-[#0D1128] left-[55px] lg:left-[105px] md:left-[70px]" src={testimonial.image} alt="Author image" />
+                                                <img className="w-40 absolute -top-14 border-[5px] border-[#0D1128] left-[55px] lg:left-[105px] md:left-[70px]" src={testimonial.image} alt="Author image" />
                                           </div>
 
                                     </div>
