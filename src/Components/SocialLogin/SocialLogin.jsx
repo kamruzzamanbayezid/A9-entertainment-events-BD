@@ -4,7 +4,7 @@ import toast from "react-hot-toast";
 
 const SocialLogin = () => {
 
-      const { googleLogin } = UseAuth();
+      const { googleLogin,githubLogin } = UseAuth();
 
       // Log in with social icon
       const handleSocialLogin = (media) => {
@@ -21,7 +21,7 @@ const SocialLogin = () => {
                         <p className="font-bold">Log in with</p>
                         <div className="flex">
                               <span onClick={() => handleSocialLogin(googleLogin)}><AiOutlineGoogle className="text-[#FD5F00] text-4xl cursor-pointer"></AiOutlineGoogle></span>
-                              <span><AiOutlineGithub className="text-[#FD5F00] cursor-pointer text-4xl"></AiOutlineGithub></span>
+                              <span onClick={() => handleSocialLogin(githubLogin)}><AiOutlineGithub className="text-[#FD5F00] cursor-pointer text-4xl"></AiOutlineGithub></span>
                         </div>
                   </div>
             </div>

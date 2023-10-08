@@ -3,7 +3,7 @@ import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 
 const Login = () => {
       return (
-            <div className="flex justify-between">
+            <div className="flex flex-col lg:flex-row justify-between">
                   <div className="lg:w-1/2 ">
                         <img src="https://i.ibb.co/S6SrQyP/4957136.jpg" alt="welcome image" />
                   </div>
@@ -33,7 +33,7 @@ const Login = () => {
 
                                           <Link href="#" className="ml-auto text-sm text-[#FD5F00] hover:underline dark:text-blue-500">Lost Password?</Link>
 
-                                          <button type="submit" className="w-full text-white bg-[#FD5F00]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
+                                          <button type="submit" className="w-full text-white bg-[#FD5F00]   font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login to your account</button>
                                           <div className="text-sm font-medium text-gray-500 dark:text-gray-300">
                                                 Not registered? <Link to='/register' className="text-[#FD5F00] hover:underline dark:text-blue-500">Create account</Link>
                                           </div>
