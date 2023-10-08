@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { AiOutlineGoogle, AiOutlineGithub } from "react-icons/ai";
+import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 
 const Login = () => {
       return (
@@ -15,13 +15,7 @@ const Login = () => {
                                           <h2 className="text-3xl font-bold">Welcome Back</h2>
                                           <p className="text-lg font-medium text-gray-500 mb-7">Login to continue</p>
                                     </div>
-                                    <div>
-                                          <p className="font-bold">Log in with</p>
-                                          <div className="flex">
-                                                <span><AiOutlineGoogle className="text-[#FD5F00] text-4xl"></AiOutlineGoogle></span>
-                                                <span><AiOutlineGithub className="text-[#FD5F00] text-4xl"></AiOutlineGithub></span>
-                                          </div>
-                                    </div>
+                                    <SocialLogin></SocialLogin>
                               </div>
 
                               <div className=" p-4 w-full bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700">

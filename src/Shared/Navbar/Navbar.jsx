@@ -1,6 +1,9 @@
 import { Link, NavLink } from "react-router-dom";
+import UseAuth from "../../Hook/UseAuth";
 
 const Navbar = () => {
+
+      const { user } = UseAuth();
 
       return (
             <nav className="bg-[#0D1128] p-4">
@@ -30,15 +33,20 @@ const Navbar = () => {
                         </ul>
                         <div className="flex items-center gap-2">
                               <div className="dropdown dropdown-bottom dropdown-end">
-                                    <img tabIndex={0} className="w-12 rounded-full" src="https://i.ibb.co/Fn6mVw3/user.png" alt="Author Logo" />
+                                    <img tabIndex={0} className="w-12 rounded-full" src={user.photoURL} alt="Author Logo" />
                                     <ul tabIndex={0} className="hidden md:block dropdown-content text-[#FD5F00] z-[1] menu p-2 shadow bg-base-100 rounded-box w-fit">
-                                          <li className="font-medium text-lg"><a>Kamruzzaman Bayezid</a></li>
-                                          <li className="font-medium"><a>kamruzzamanbayezid07@gmail.com</a></li>
+                                          <li className="font-medium text-lg"><a>{user.displayName}</a></li>
+                                          <li className="font-medium"><a>{user.email}</a></li>
                                     </ul>
                               </div>
 
                               <Link to='login'>
-                                    <button className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log In</button>
+                                    {
+                                          user ?
+                                                <button className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log Out</button>
+                                                :
+                                                <button className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log In</button>
+                                    }
                               </Link>
                         </div>
                   </div>
