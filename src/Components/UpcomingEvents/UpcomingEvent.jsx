@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const UpcomingEvent = ({ event }) => {
-      console.log(event);
+      
       const { id, title, image, date, time, ticketPrice } = event;
       return (
 

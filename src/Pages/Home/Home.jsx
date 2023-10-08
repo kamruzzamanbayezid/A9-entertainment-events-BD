@@ -1,9 +1,12 @@
 import Banner from "../../Components/Banner/Banner";
+import Services from "../../Components/Services/Services";
 import UpcomingEvents from "../../Components/UpcomingEvents/UpcomingEvents";
 
 const Home = () => {
+
+
       return (
-            <div >
+            <div className="p-2 lg:p-0">
 
                   {/* Welcome WIsh */}
                   <div className="pt-1 pb-8">
@@ -27,60 +30,31 @@ const Home = () => {
 
                   {/* Our Services */}
                   <h2 className="text-center text-[#0D1128] md:text-start font-sans font-medium mb-7 border-l-4 border-[#FD5F00] pl-3 border-b w-fit pb-1 rounded text-5xl">Our Services!</h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
-                        <div className="bg-[#0D1128] ">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
+                  <Services></Services>
+
+                  {/* Testimonials: */}
+                  <h2 className="text-center text-[#0D1128] md:text-start font-sans font-medium mb-7 border-l-4 border-[#FD5F00] pl-3 border-b w-fit pb-1 rounded text-5xl">Testimonials!</h2>
+
+                  <div className="grid grid-cols-3 gap-2 mb-16 bg-[#0D1128] px-16 py-20">
+                        <div className=" h-96 relative bg-[#FFFFFF]">
+                              <p>I attended the Bangladesh Music Fest, and it was a night of musical bliss. Truly a fantastic experience!</p>
+                              <h3>John Doe</h3>
+                              <img className="w-24 rounded-full absolute -top-10 border-4 border-[#0D1128] left-24" src="https://i.ibb.co/CJ2V9dn/man-wearing-waistcoat.jpg" alt="" />
                         </div>
-                        <div className="bg-[#FD5F00] ">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
+                        <div className=" h-96 relative bg-[#FFF]">
+                              <p>I attended the Bangladesh Music Fest, and it was a night of musical bliss. Truly a fantastic experience!</p>
+                              <h3>John Doe</h3>
+                              <img className="w-24 rounded-full absolute -top-10 border-4 border-transparent left-24" src="https://i.ibb.co/CJ2V9dn/man-wearing-waistcoat.jpg" alt="" />
                         </div>
-                        <div className="bg-[#0D1128] ">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
+                        <div className=" h-96 relative bg-[#FFF]">
+                              <p>I attended the Bangladesh Music Fest, and it was a night of musical bliss. Truly a fantastic experience!</p>
+                              <h3>John Doe</h3>
+                              <img className="w-24 rounded-full absolute -top-10 border-4 border-transparent left-24" src="https://i.ibb.co/CJ2V9dn/man-wearing-waistcoat.jpg" alt="" />
                         </div>
-                        <div className="bg-[#FD5F00]">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
-                        </div>
-                        <div className="bg-[#0D1128] ">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
-                        </div>
-                        <div className="bg-[#FD5F00] ">
-                              <div className="card-body text-[#FFF]">
-                                    <h2 className="card-title">Card title!</h2>
-                                    <p>If a dog chews shoes whose shoes does he choose?</p>
-                                    <div className="card-actions justify-end">
-                                          <button className="btn btn-primary">Buy Now</button>
-                                    </div>
-                              </div>
+                        <div className=" h-96 relative bg-[#FFF]">
+                              <p>I attended the Bangladesh Music Fest, and it was a night of musical bliss. Truly a fantastic experience!</p>
+                              <h3>John Doe</h3>
+                              <img className="w-24 rounded-full absolute -top-10 border-4 border-transparent left-24" src="https://i.ibb.co/CJ2V9dn/man-wearing-waistcoat.jpg" alt="" />
                         </div>
                   </div>
             </div>

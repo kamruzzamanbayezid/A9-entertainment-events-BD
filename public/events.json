@@ -4,15 +4,19 @@
             "category": "Concerts and Music Festivals",
             "title": "Bangladesh Music Fest",
             "image": "https://i.ibb.co/kgCPST2/abstract-7476913-1280.png",
-            "description": "Join us for the biggest music festival in Bangladesh. Get ready to experience an electrifying night filled with the mesmerizing tunes of top artists from around the country. From rock to pop and classical to contemporary, this festival has it all. Don't miss out on this unforgettable musical journey.",
-            "date": "2023-11-12",
-            "time": "17:00",
+            "description": "Join us for the biggest music festival in Bangladesh. Get ready to experience an electrifying night filled with the mesmerizing tunes of top artists from around the country. From rock to pop and classical to contemporary, this festival has it all. Don't miss out on this unforgettable musical journey. Enjoy a night of music, dance, and celebration under the stars.",
+            "date": "October 15, 2023",
+            "time": "4:00 PM",
+            "day": "Saturday",
             "location": {
                   "venue": "Dhaka Stadium",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.8103,
+                  "longitude": 90.4125,
+                  "address": "123 Music Avenue"
             },
-            "ticketPrice": 50.00,
+            "ticketPrice": 500.00,
             "organizer": "Bangladesh Entertainment Productions"
       },
       {
@@ -20,15 +24,19 @@
             "category": "Theater and Performing Arts",
             "title": "Dhaka Theater Night",
             "image": "https://i.ibb.co/M11232n/ballet-359982-1280.jpg",
-            "description": "Step into the world of captivating theater performances by local talents in Dhaka. This enchanting evening promises a variety of dramatic acts, from timeless classics to contemporary masterpieces. Get ready to be moved and inspired by the magic of live theater.",
-            "date": "2023-12-05",
-            "time": "19:30",
+            "description": "Step into the world of captivating theater performances by local talents in Dhaka. This enchanting evening promises a variety of dramatic acts, from timeless classics to contemporary masterpieces. Get ready to be moved and inspired by the magic of live theater. Experience the power of storytelling through brilliant performances.",
+            "date": "November 5, 2023",
+            "time": "5:00 PM",
+            "day": "Sunday",
             "location": {
                   "venue": "National Theater Hall",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.8109,
+                  "longitude": 90.4125,
+                  "address": "456 Drama Street"
             },
-            "ticketPrice": 35.00,
+            "ticketPrice": 350.00,
             "organizer": "Dhaka Arts Society"
       },
       {
@@ -36,15 +44,19 @@
             "category": "Film Screenings and Premieres",
             "title": "Bangladesh Film Festival",
             "image": "https://i.ibb.co/jb2xG7m/20623.jpg",
-            "description": "Be part of a cinematic celebration at the Bangladesh Film Festival. This event showcases the finest films produced in Bangladesh, including exclusive premieres. Immerse yourself in the world of storytelling through cinema and connect with filmmakers and actors.",
-            "date": "2023-10-20",
-            "time": "18:00",
+            "description": "Be part of a cinematic celebration at the Bangladesh Film Festival. This event showcases the finest films produced in Bangladesh, including exclusive premieres. Immerse yourself in the world of storytelling through cinema and connect with filmmakers and actors. Experience the magic of cinema like never before.",
+            "date": "December 20, 2023",
+            "time": "8:00 PM",
+            "day": "Monday",
             "location": {
                   "venue": "Star Cinemas",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.8131,
+                  "longitude": 90.4138,
+                  "address": "789 Movie Lane"
             },
-            "ticketPrice": 25.00,
+            "ticketPrice": 250.00,
             "organizer": "Bangladesh Film Society"
       },
       {
@@ -52,15 +64,19 @@
             "category": "Comedy Shows",
             "title": "Dhaka Comedy Fest",
             "image": "https://i.ibb.co/Ybtv6gJ/hjdf-cnyl-210906.jpg",
-            "description": "Prepare for a night filled with laughter at the Dhaka Comedy Fest. Top comedians from the region will tickle your funny bone with their hilarious acts. Get ready for an evening of non-stop entertainment and joy.",
-            "date": "2023-09-15",
-            "time": "20:00",
+            "description": "Prepare for a night filled with laughter at the Dhaka Comedy Fest. Top comedians from the region will tickle your funny bone with their hilarious acts. Get ready for an evening of non-stop entertainment and joy. Laugh your heart out with the best comedians in town.",
+            "date": "January 10, 2024",
+            "time": "6:00 PM",
+            "day": "Tuesday",
             "location": {
                   "venue": "Laugh Factory",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.8066,
+                  "longitude": 90.4125,
+                  "address": "321 Comedy Avenue"
             },
-            "ticketPrice": 20.00,
+            "ticketPrice": 200.00,
             "organizer": "Dhaka Comedy Club"
       },
       {
@@ -68,15 +84,19 @@
             "category": "Sports Events",
             "title": "Bangladesh Sports Gala",
             "image": "https://i.ibb.co/QXsvnDF/13034.jpg",
-            "description": "Witness the excitement of various sports events and championships in Bangladesh. From cricket to football and athletics to martial arts, this gala has it all. Feel the adrenaline rush as you cheer for your favorite athletes and teams.",
-            "date": "2023-10-08",
-            "time": "10:00",
+            "description": "Witness the excitement of various sports events and championships in Bangladesh. From cricket to football and athletics to martial arts, this gala has it all. Feel the adrenaline rush as you cheer for your favorite athletes and teams. Be part of the sporting extravaganza.",
+            "date": "February 25, 2024",
+            "time": "10:00 AM",
+            "day": "Saturday",
             "location": {
                   "venue": "Bangabandhu National Stadium",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.7053,
+                  "longitude": 90.4113,
+                  "address": "555 Sports Avenue"
             },
-            "ticketPrice": 30.00,
+            "ticketPrice": 300.00,
             "organizer": "Bangladesh Sports Authority"
       },
       {
@@ -84,15 +104,19 @@
             "category": "Magic Shows",
             "title": "Magical Moments in Dhaka",
             "image": "https://i.ibb.co/LnS7pGt/13014.jpg",
-            "description": "Prepare to be amazed by mind-blowing magic tricks and illusions. Magicians from around the world will leave you in awe with their extraordinary feats. Experience a night of wonder and enchantment.",
-            "date": "2023-10-18",
-            "time": "19:00",
+            "description": "Prepare to be amazed by mind-blowing magic tricks and illusions. Magicians from around the world will leave you in awe with their extraordinary feats. Experience a night of wonder and enchantment. Witness the impossible come to life.",
+            "date": "March 15, 2024",
+            "time": "9:00 AM",
+            "day": "Wednesday",
             "location": {
                   "venue": "Dhaka Magic Theater",
                   "city": "Dhaka",
-                  "country": "Bangladesh"
+                  "country": "Bangladesh",
+                  "latitude": 23.7644,
+                  "longitude": 90.4098,
+                  "address": "888 Magic Street"
             },
-            "ticketPrice": 25.00,
+            "ticketPrice": 250.00,
             "organizer": "Dhaka Magic Society"
       }
 ]

@@ -1,0 +1,57 @@
+[
+      {
+        "id": "1",
+        "category": "Concerts and Music Festivals",
+        "description": "Experience the magic of live music.",
+        "backgroundColor": "#FD5F00"
+      },
+      {
+        "id": "2",
+        "category": "Theater and Performing Arts",
+        "description": "Enjoy captivating theater performances.",
+        "backgroundColor": "#0D1128"
+      },
+      {
+        "id": "3",
+        "category": "Film Screenings and Premieres",
+        "description": "Be part of a cinematic celebration.",
+        "backgroundColor": "#FD5F00"
+      },
+      {
+        "id": "4",
+        "category": "Comedy Shows",
+        "description": "Prepare for a night filled with laughter.",
+        "backgroundColor": "#0D1128"
+      },
+      {
+        "id": "5",
+        "category": "Sports Events",
+        "description": "Witness the excitement of various sports events.",
+        "backgroundColor": "#FD5F00"
+      },
+      {
+        "id": "6",
+        "category": "Magic Shows",
+        "description": "Prepare to be amazed by mind-blowing magic tricks.",
+        "backgroundColor": "#0D1128"
+      },
+      {
+        "id": "7",
+        "category": "Dance Performances",
+        "description": "Get lost in the rhythm of breathtaking dance performances.",
+        "backgroundColor": "#FD5F00"
+      },
+      {
+        "id": "8",
+        "category": "Art Exhibitions",
+        "description": "Explore the world of art through stunning exhibitions.",
+        "backgroundColor": "#0D1128"
+      },
+      {
+        "id": "9",
+        "category": "Culinary Delights",
+        "description": "Savor exquisite flavors with our culinary events.",
+        "backgroundColor": "#FD5F00"
+      }
+    ]
+    
