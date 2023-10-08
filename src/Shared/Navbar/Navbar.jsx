@@ -24,7 +24,7 @@ const Navbar = () => {
                                     <NavLink to="/Contact" style={({ isActive }) => ({
                                           color: isActive ? '#FD5F00' : '#FFF'
                                     })}>
-                                          Contact
+                                          Contact Us
                                     </NavLink>
                               </li>
                         </ul>

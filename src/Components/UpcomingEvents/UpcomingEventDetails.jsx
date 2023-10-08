@@ -9,7 +9,7 @@ const UpcomingEventDetails = () => {
       // const ids = parseInt(id);
 
       const foundEvent = events.find((event) => event.id === id);
-      console.log(foundEvent);
+     
       const { title, image, description, date, time, day, location, ticketPrice, organizer } = foundEvent;
 
       return (

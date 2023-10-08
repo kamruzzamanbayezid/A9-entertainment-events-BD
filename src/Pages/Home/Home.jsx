@@ -8,8 +8,6 @@ const Home = () => {
 
       return (
             <div className="p-2 lg:p-0">
-
-
                   {/* Welcome WIsh */}
                   <div className="pt-1 pb-8">
                         <div className="flex flex-col lg:flex-row items-center justify-between mt-10 p-2 lg:p-0 ">

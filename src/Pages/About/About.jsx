@@ -11,7 +11,7 @@ const About = () => {
 
                   <p className="text-lg font-medium text-gray-500 mb-12 w-full md:w-4/5 mx-auto text-center">At Your Entertainment Events, we are more than just event organizers; we are creators of unforgettable memories. With a passion for entertainment and a commitment to excellence, our team has been at the forefront of the entertainment industry for over a decade.</p>
 
-                  <div className="lg:w-4/5">
+                  <div className="lg:w-4/5 p-2 md:p-4">
                         <div className="mb-6">
                               <p className="text-2xl font-medium">Our Mission:</p>
                               <p className="text-gray-500">Our mission is simple: to provide you with extraordinary entertainment experiences that will leave you enchanted and delighted. We take pride in our ability to transform ordinary moments into extraordinary memories.</p>
