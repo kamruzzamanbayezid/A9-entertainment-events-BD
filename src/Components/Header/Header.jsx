@@ -16,12 +16,12 @@ const Header = () => {
                               <p><CiMail className="text-3xl text-[#FD5F00]"></CiMail></p>
                               <div>
                                     <h4 className="text-lg font-medium">Email:</h4>
-                                    <p>kamruzzamanbayezid07@gmail.com</p>
+                                    <p className="text-gray-500">kamruzzamanbayezid07@gmail.com</p>
                               </div>
                         </div>
                         <div>
                               <p><CiPhone className="text-3xl text-[#FD5F00]"></CiPhone></p>
-                              <p>01882888860</p>
+                              <p className="text-gray-500">01882888860</p>
                         </div>
                         <div className="flex md:w-fit items-center gap-3 p-4 bg-[#FD5F00] rounded-md">
                               <Link><FaFacebookF className="text-xl text-[#FFF]"></FaFacebookF></Link>
