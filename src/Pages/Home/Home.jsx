@@ -1,5 +1,6 @@
 import Banner from "../../Components/Banner/Banner";
 import Services from "../../Components/Services/Services";
+import Testimonials from "../../Components/Testimonials/Testimonials";
 import UpcomingEvents from "../../Components/UpcomingEvents/UpcomingEvents";
 
 const Home = () => {
@@ -34,7 +35,7 @@ const Home = () => {
 
                   {/* Testimonials: */}
                   <h2 className="text-center text-[#0D1128] md:text-start font-sans font-medium mb-7 border-l-4 border-[#FD5F00] pl-3 border-b w-fit pb-1 rounded text-5xl">Testimonials!</h2>
-
+{/* 
                   <div className="grid grid-cols-3 gap-2 mb-16 bg-[#0D1128] px-16 py-20">
                         <div className=" h-96 relative bg-[#FFFFFF]">
                               <p>I attended the Bangladesh Music Fest, and it was a night of musical bliss. Truly a fantastic experience!</p>
@@ -56,7 +57,8 @@ const Home = () => {
                               <h3>John Doe</h3>
                               <img className="w-24 rounded-full absolute -top-10 border-4 border-transparent left-24" src="https://i.ibb.co/CJ2V9dn/man-wearing-waistcoat.jpg" alt="" />
                         </div>
-                  </div>
+                  </div> */}
+                  <Testimonials></Testimonials>
             </div>
       );
 };
