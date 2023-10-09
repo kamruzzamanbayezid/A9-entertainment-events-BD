@@ -14,7 +14,8 @@ const Services = () => {
       }, []);
 
       return (
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-0 lg:grid-cols-3 mb-20">
+            <div data-aos="fade-up"
+            data-aos-duration="3000" className="grid grid-cols-1 md:grid-cols-2 gap-2 lg:gap-0 lg:grid-cols-3 mb-20">
                   {
                         services.map(service => {
                               return <div key={service.id}>

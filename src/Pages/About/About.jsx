@@ -4,15 +4,15 @@ const About = () => {
       return (
             <div>
                   <Navbar></Navbar>
-                  <div>
-                        <div className="flex flex-col lg:flex-row justify-center items-center my-8 gap-3">
+                  <div className="max-w-7xl mx-auto">
+                        <div data-aos="zoom-in" className="flex flex-col lg:flex-row justify-center items-center my-8 gap-3">
                               <h4 className="text-4xl font-medium">Welcome to our</h4>
                               <h2 className="text-5xl font-semibold">ENTERTAINMENT</h2>
                               <h4 className="text-4xl font-medium">Events <span className="text-3xl font-bold text-green-500">B</span><span className="text-3xl font-bold text-red-500">D</span></h4>
 
                         </div>
 
-                        <p className="text-lg font-medium text-gray-500 mb-12 w-full md:w-4/5 mx-auto text-center">At Your Entertainment Events, we are more than just event organizers; we are creators of unforgettable memories. With a passion for entertainment and a commitment to excellence, our team has been at the forefront of the entertainment industry for over a decade.</p>
+                        <p data-aos="zoom-out" className="text-lg font-medium text-gray-500 mb-12 w-full md:w-4/5 mx-auto text-center">At Your Entertainment Events, we are more than just event organizers; we are creators of unforgettable memories. With a passion for entertainment and a commitment to excellence, our team has been at the forefront of the entertainment industry for over a decade.</p>
 
                         <div className="lg:w-4/5 p-2 md:p-4">
                               <div className="mb-6">

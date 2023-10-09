@@ -2,7 +2,7 @@
 const Banner = () => {
       return (
 
-            <div className="carousel rounded-lg w-full max-h-[70vh]">
+            <div className="carousel rounded-lg w-full max-h-[70vh]" data-aos="zoom-in">
                   <div id="slide1" className="carousel-item relative w-full">
                         <img src="https://i.ibb.co/bNMb3LQ/flat-lay-composition-toys-with-copyspace.jpg" className="w-full" />
                         <div className=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">

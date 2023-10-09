@@ -16,7 +16,8 @@ const UpcomingEvents = () => {
 
       return (
             <div className="mb-24 mt-8 max-w-7xl mx-auto">
-                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                  <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-aos="fade-up"
+                        data-aos-anchor-placement="center-center">
                         {
                               events.map(event => <UpcomingEvent key={event.id} event={event}></UpcomingEvent>)
                         }

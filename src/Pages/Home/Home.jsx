@@ -19,12 +19,12 @@ const Home = () => {
                               {/* Welcome WIsh */}
                               <div className="max-w-7xl mx-auto pt-1 pb-8">
                                     <div className="flex flex-col lg:flex-row items-center justify-between mt-10 p-2 lg:p-0 ">
-                                          <div className="lg:w-1/2">
+                                          <div className="lg:w-1/2" data-aos="fade-right" >
                                                 <h2 className="text-4xl text-center lg:text-start mb-3 font-sans font-medium">Welcome to our <br /> ENTERTAINMENT Events <span className="text-green-500">B</span><span className=" text-red-500">D</span></h2>
                                           </div>
 
 
-                                          <div className="lg:w-1/2">
+                                          <div className="lg:w-1/2" data-aos="fade-left" data-aos-delay="500">
                                                 <p className="text-gray-500 text-sm text-center lg:text-start"><span className="text-2xl text-gray-600 font-normal">W</span>e transform ordinary moments into extraordinary memories. Dive into a world of immersive <span className="font-semibold">entertainment</span> experiences that will leave you mesmerized. Whether you are a music enthusiast, a theater aficionado, or a sports fanatic, we have curated a diverse range of events that cater to every <span className="font-semibold">entertainment</span> palate. Join us on a journey filled with laughter, music, drama, and excitement.</p>
                                           </div>
 

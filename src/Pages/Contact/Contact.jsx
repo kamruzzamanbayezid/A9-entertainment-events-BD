@@ -7,49 +7,54 @@ const Contact = () => {
       return (
             <div>
                   <Navbar></Navbar>
-                  <div className="mb-20 p-2">
-                        <div className="p-4 border-b-2 border-[#FD5F00]">
-                              <h2 className="text-5xl font-semibold my-10">Contact Us</h2>
-                              <p className="w-full md:w-3/4 lg:w-1/2 text-lg font-medium text-gray-500 mb-12">If you have any questions or would like to inquire about our services, feel free to get in touch with us. We're here to help!</p>
+                  <div className="max-w-7xl mx-auto">
 
-                              <div>
-                                    <div className="my-10">
-                                          <h3 className="text-2xl mb-2 font-bold">Address:</h3>
-                                          <div className="flex gap-3 items-center">
-                                                <span><MdLocationOn className="text-2xl text-[#FD5F00]"></MdLocationOn></span>
-                                                <div className="">
-                                                      <p className="text-lg text-gray-500 font-medium">123 Entertainment Street</p>
-                                                      <p className="text-lg text-gray-500 font-medium">Islampur, Muslimpara</p>
-                                                      <p className="text-md text-gray-500 font-medium">Dhaka, Bangladesh</p>
+                        <div className=" p-2 lg:p-0">
+                              <div className="p-4 border-b-2 border-[#FD5F00]">
+                                    <h2 className="text-5xl font-semibold my-10">Contact Us</h2>
+                                    <p className="w-full md:w-3/4 lg:w-1/2 text-lg font-medium text-gray-500 mb-12">If you have any questions or would like to inquire about our services, feel free to get in touch with us. We're here to help!</p>
+
+                                    <div>
+                                          <div className="my-10">
+                                                <h3 className="text-2xl mb-2 font-bold">Address:</h3>
+                                                <div className="flex gap-3 items-center">
+                                                      <span><MdLocationOn className="text-2xl text-[#FD5F00]"></MdLocationOn></span>
+                                                      <div className="">
+                                                            <p className="text-lg text-gray-500 font-medium">123 Entertainment Street</p>
+                                                            <p className="text-lg text-gray-500 font-medium">Islampur, Muslimpara</p>
+                                                            <p className="text-md text-gray-500 font-medium">Dhaka, Bangladesh</p>
+                                                      </div>
                                                 </div>
                                           </div>
-                                    </div>
 
-                                    <div className="my-10">
-                                          <h3 className="text-2xl mb-2 font-bold">Email:</h3>
-                                          <div className="flex gap-3 items-center">
-                                                <span><SiMinutemailer className="text-2xl text-[#FD5F00]"></SiMinutemailer></span>
-                                                <div className="">
-                                                      <p className="text-lg text-gray-500 font-medium">kamruzzamanbayezid07@gmail.com</p>
-                                                      <p className="text-lg text-gray-500 font-medium">kmbayezid955@gmail.com</p>
+                                          <div className="my-10">
+                                                <h3 className="text-2xl mb-2 font-bold">Email:</h3>
+                                                <div className="flex gap-3 items-center">
+                                                      <span><SiMinutemailer className="text-2xl text-[#FD5F00]"></SiMinutemailer></span>
+                                                      <div className="">
+                                                            <p className="text-lg text-gray-500 font-medium">kamruzzamanbayezid07@gmail.com</p>
+                                                            <p className="text-lg text-gray-500 font-medium">kmbayezid955@gmail.com</p>
+                                                      </div>
                                                 </div>
                                           </div>
-                                    </div>
 
-                                    <div className="my-10">
-                                          <h3 className="text-2xl mb-2 font-bold">Phone:</h3>
-                                          <div className="flex gap-3 items-center">
-                                                <span><SiMinutemailer className="text-2xl text-[#FD5F00]"></SiMinutemailer></span>
-                                                <div className="">
-                                                      <p className="text-lg text-gray-500 font-medium">+123 456 7890</p>
-                                                      <p className="text-lg text-gray-500 font-medium">01882888860</p>
+                                          <div className="my-10">
+                                                <h3 className="text-2xl mb-2 font-bold">Phone:</h3>
+                                                <div className="flex gap-3 items-center">
+                                                      <span><SiMinutemailer className="text-2xl text-[#FD5F00]"></SiMinutemailer></span>
+                                                      <div className="">
+                                                            <p className="text-lg text-gray-500 font-medium">+123 456 7890</p>
+                                                            <p className="text-lg text-gray-500 font-medium">01882888860</p>
+                                                      </div>
                                                 </div>
                                           </div>
                                     </div>
                               </div>
                         </div>
 
-                        <div className="lg:flex justify-end bg-slate-100">
+                  </div>
+                  <div className="bg-slate-100 pb-12">
+                        <div className="max-w-7xl mx-auto lg:flex justify-end bg-slate-100">
                               <div className="mt-12 ">
                                     <div className="flex item-center gap-3">
                                           <span><AiOutlineMessage className="text-[#FD5F00] text-4xl"></AiOutlineMessage></span>

@@ -24,10 +24,12 @@ const Header = () => {
                               <p className="text-gray-500">01882888860</p>
                         </div>
                         <div className="flex md:w-fit items-center gap-3 p-4 bg-[#FD5F00] rounded-md">
+
                               <Link><FaFacebookF className="text-xl text-[#FFF]"></FaFacebookF></Link>
                               <Link><FaTwitter className="text-xl text-[#FFF]"></FaTwitter></Link>
                               <Link><FaLinkedinIn className="text-xl text-[#FFF]"></FaLinkedinIn></Link>
                               <Link><FaPinterestP className="text-xl text-[#FFF]"></FaPinterestP></Link>
+
                         </div>
                   </div>
             </div>
