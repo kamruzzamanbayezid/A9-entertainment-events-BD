@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import SocialLogin from "../../Components/SocialLogin/SocialLogin";
 import toast from "react-hot-toast";
 import UseAuth from "../../Hook/UseAuth";
@@ -6,6 +6,9 @@ import Navbar from "../../Shared/Navbar/Navbar";
 
 const Login = () => {
 
+      const location = useLocation();
+      console.log(location);
+      const navigate = useNavigate();
       const { logIn } = UseAuth();
 
       const handleSubmit = (e) => {
@@ -29,6 +32,7 @@ const Login = () => {
             logIn(email, password)
                   .then(result => {
                         toast.success('Logged In Successfully')
+                        navigate(location.state ? location.state : '/')
                   })
                   .catch(error => {
                         toast.error(error.message)

@@ -32,6 +32,7 @@ const Home = () => {
                         <Banner></Banner>
 
                         {/* Upcoming Events */}
+                        <h2 className="text-center md:text-start text-[#0D1128] font-sans font-medium mt-20 border-l-4 border-[#FD5F00] pl-3 border-b w-fit pb-1 rounded text-5xl">Upcoming Events!</h2>
                         <UpcomingEvents></UpcomingEvents>
 
                         {/* Our Services */}

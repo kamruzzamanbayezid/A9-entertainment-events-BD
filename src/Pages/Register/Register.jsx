@@ -22,8 +22,12 @@ const Register = () => {
                   return;
             }
             else if (!/[A-Z]/.test(password)) {
-                  toast.error('Provide a strong password')
+                  toast.error('Password must need at least a capital letter')
                   return;
+            }
+            else if(!/[@$!%*?&]/.test(password)){
+                  toast.error('Password must need at least a special character')
+                  return
             }
 
             // create account

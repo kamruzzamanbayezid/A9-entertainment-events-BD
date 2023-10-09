@@ -40,6 +40,15 @@ const Navbar = () => {
                                           Contact Us
                                     </NavLink>
                               </li>
+                              {
+                                    user && <li className="text-lg font-normal hover:border-b-2 hover:border-[#FD5F00]">
+                                          <NavLink to="/blogs" style={({ isActive }) => ({
+                                                color: isActive ? '#FD5F00' : '#FFF'
+                                          })}>
+                                                Blogs
+                                          </NavLink>
+                                    </li>
+                              }
                         </ul>
                         <div className="flex items-center gap-2">
                               <div className="dropdown dropdown-bottom dropdown-end">
