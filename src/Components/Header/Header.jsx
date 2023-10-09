@@ -5,7 +5,7 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaPinterestP } from "react-icons/
 
 const Header = () => {
       return (
-            <div className="flex flex-col lg:flex-row items-center justify-between py-7">
+            <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between py-7">
                   <div className="flex gap-3 lg:gap-0 lg:flex-col">
                         <div className="mb-4 lg:mb-0"><h2 className="text-3xl font-semibold">ENTERTAINMENT</h2></div>
                         <div><h4 className="text-2xl font-medium">Events <span className="text-3xl font-bold text-green-500">B</span><span className="text-3xl font-bold text-red-500">D</span></h4>

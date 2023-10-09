@@ -1,10 +1,11 @@
 
 const Banner = () => {
       return (
-            <div className="carousel w-full max-h-[80vh]">
+
+            <div className="carousel rounded-lg w-full max-h-[70vh]">
                   <div id="slide1" className="carousel-item relative w-full">
                         <img src="https://i.ibb.co/bNMb3LQ/flat-lay-composition-toys-with-copyspace.jpg" className="w-full" />
-                        <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <div className=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                               <a href="#slide4" className="py-3 px-1 lg:px-2 rounded-xl bg-[#FD5F00] border-none text-sm lg:text-xl text-[#FFF]">❮</a>
                               <a href="#slide2" className="py-3 px-1 lg:px-2 rounded-xl bg-[#FD5F00] border-none text-sm lg:text-xl text-[#FFF]">❯</a>
                         </div>
@@ -31,6 +32,7 @@ const Banner = () => {
                         </div>
                   </div>
             </div>
+
       );
 };
 
