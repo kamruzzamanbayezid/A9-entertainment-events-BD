@@ -20,7 +20,8 @@ const UpcomingEventDetails = () => {
 
 
                         <div className="my-10 w-11/12 mx-auto">
-                              <img data-aos="zoom-in" className="w-full mb-16 max-h-[70vh]" src={image} alt="Event photo" />
+                              <img data-aos="fade-up"
+                                    data-aos-duration="3000" className="w-full mb-16 max-h-[70vh]" src={image} alt="Event photo" />
                               <div className="">
                                     <span className="mr-1 text-[#FD5F00] ">{location.city},</span>
                                     <span className="text-[#FD5F00] ">{location.country}</span>
