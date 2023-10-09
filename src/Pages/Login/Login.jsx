@@ -45,9 +45,6 @@ const Login = () => {
             <div>
                   <Navbar></Navbar>
                   <div className="flex flex-col lg:flex-row justify-between">
-                        <div className="lg:w-1/2 ">
-                              <img src="https://i.ibb.co/S6SrQyP/4957136.jpg" alt="welcome image" />
-                        </div>
                         <div className=" lg:w-1/2 flex items-center justify-center">
                               <div>
 
@@ -82,6 +79,10 @@ const Login = () => {
                                     </div>
 
                               </div>
+                        </div>
+
+                        <div className="lg:w-1/2 ">
+                              <img src="https://i.ibb.co/S6SrQyP/4957136.jpg" alt="welcome image" />
                         </div>
                   </div>
             </div>
