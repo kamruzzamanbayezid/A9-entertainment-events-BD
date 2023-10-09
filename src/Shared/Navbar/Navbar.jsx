@@ -52,14 +52,16 @@ const Navbar = () => {
                                     </ul>
                               </div>
 
-                              <Link to='login'>
+                              <div>
                                     {
                                           user ?
                                                 <button onClick={handleLogOut} className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log Out</button>
                                                 :
-                                                <button className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log In</button>
+                                                <Link to='/login'>
+                                                      <button className="py-2 px-8 hover:text-[#FD5F00] ease-in-out transition text-xl text-[#FFF] border border-[#FD5F00] font-medium rounded-sm hover:bg-transparent bg-[#FD5F00]">Log In</button>
+                                                </Link>
                                     }
-                              </Link>
+                              </div>
                         </div>
                   </div>
             </nav>
