@@ -1,4 +1,4 @@
-# Entertainment Event Management Website
+# Entertainment Event Management BD
 
 Welcome to the Entertainment Event Management BD website...
 
@@ -6,12 +6,12 @@ Welcome to the Entertainment Event Management BD website...
 
 ### 1.Event Categories
 
-- **Concerts and Music Festivals**
-- **Theater and Performing Arts**
-- **Film Screenings and Premieres**
-- **Comedy Shows**
-- **Sports Events**
-- **Magic Shows**
+Concerts and Music Festivals**
+Theater and Performing Arts**
+Film Screenings and Premieres**
+Comedy Shows**
+Sports Events**
+Magic Shows**
 
 ### 2. Upcoming Events
 
