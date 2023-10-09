@@ -7,7 +7,6 @@ import Navbar from "../../Shared/Navbar/Navbar";
 const Login = () => {
 
       const location = useLocation();
-      console.log(location);
       const navigate = useNavigate();
       const { logIn } = UseAuth();
 
@@ -32,6 +31,14 @@ const Login = () => {
             logIn(email, password)
                   .then(result => {
                         toast.success('Logged In Successfully')
+
+                        // Clear the input values
+                        const emailInput = document.getElementById('email');
+                        const passwordInput = document.getElementById('password');
+                        emailInput.value = '';
+                        passwordInput.value = '';
+
+
                         navigate(location.state ? location.state : '/')
                   })
                   .catch(error => {
@@ -44,7 +51,7 @@ const Login = () => {
       return (
             <div>
                   <Navbar></Navbar>
-                  <div className="flex flex-col lg:flex-row justify-between">
+                  <div className="flex mt-8 lg:mt-0 flex-col lg:flex-row justify-between">
                         <div className=" lg:w-1/2 flex items-center justify-center">
                               <div>
 

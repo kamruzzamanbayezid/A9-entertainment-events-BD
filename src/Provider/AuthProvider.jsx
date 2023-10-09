@@ -68,8 +68,6 @@ const AuthProvider = ({ children }) => {
             }
       }, [])
 
-      console.log('Current User', user);
-
       // value
       const authentication = {
             loading,

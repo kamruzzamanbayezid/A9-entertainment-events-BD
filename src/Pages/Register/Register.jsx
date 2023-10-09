@@ -25,7 +25,7 @@ const Register = () => {
                   toast.error('Password must need at least a capital letter')
                   return;
             }
-            else if(!/[@$!%*?&]/.test(password)){
+            else if (!/[@$!%*?&]/.test(password)) {
                   toast.error('Password must need at least a special character')
                   return
             }
@@ -37,6 +37,17 @@ const Register = () => {
                         // update profile
                         profileUpdate(name, image)
                               .then(() => {
+
+                                    // Clear the input values
+                                    const textInput = document.getElementById('text');
+                                    const emailInput = document.getElementById('email');
+                                    const photoInput = document.getElementById('photo_URL');
+                                    const passwordInput = document.getElementById('password');
+                                    textInput.value = '';
+                                    emailInput.value = '';
+                                    photoInput.value = '';
+                                    passwordInput.value = '';
+
                                     toast.success('Account created successfully')
                               })
                               .catch(error => toast.error(error.message))

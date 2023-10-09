@@ -1,7 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { MdDateRange, MdLocationOn, MdOutlineAccessTime } from "react-icons/md";
 import { CgOrganisation } from "react-icons/cg";
-import Header from "../Header/Header";
 import Navbar from "../../Shared/Navbar/Navbar";
 
 const UpcomingEventDetails = () => {
@@ -16,7 +15,7 @@ const UpcomingEventDetails = () => {
 
       return (
             <div>
-                  <Header></Header>
+               
                   <Navbar></Navbar>
                   <div className="my-10 w-11/12 mx-auto">
                         <img className="w-full mb-16 max-h-[70vh]" src={image} alt="Event photo" />
