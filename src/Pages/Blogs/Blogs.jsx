@@ -82,7 +82,7 @@ const Blogs = () => {
                               <p className="text-gray-600 mb-3">Published on October 15, 2023</p>
                               <h2 className="text-[#FD5F00] text-xl font-medium mb-2">Magic Unveiled: A Night of Wonder and Enchantment</h2>
 
-                              <p className="text-gray-500">Prepare to be amazed by mind-blowing magic tricks and illusions at "Magical Moments in Dhaka." Magicians from around the world will leave you in awe with their extraordinary feats.</p>
+                              <p className="text-gray-500">Prepare to be amazed by mind-blowing magic tricks and illusions at Magical Moments in Dhaka.Magicians from around the world will leave you in awe with their extraordinary feats.</p>
 
                               <div className="flex justify-end mt-4">
                                     <button className="py-2 flex items-center gap-2 px-8 text-[#FD5F00] ease-in-out transition text-xl hover:text-[#FFF] border border-[#FD5F00] font-medium rounded-sm bg-transparent hover:bg-[#FD5F00]">Read More <span><HiOutlineArrowNarrowRight></HiOutlineArrowNarrowRight></span></button>

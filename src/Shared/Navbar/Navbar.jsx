@@ -49,6 +49,13 @@ const Navbar = () => {
                                           </NavLink>
                                     </li>
                               }
+                              <li className="text-lg hidden lg:block font-normal hover:border-b-2 hover:border-[#FD5F00]">
+                                    <NavLink to="/register" style={({ isActive }) => ({
+                                          color: isActive ? '#FD5F00' : '#FFF'
+                                    })}>
+                                          Register for updates
+                                    </NavLink>
+                              </li>
                         </ul>
                         <div className="flex items-center gap-2">
                               <div className="dropdown dropdown-bottom dropdown-end">
